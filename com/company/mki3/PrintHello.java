@@ -1,6 +1,9 @@
 package com.company.mki3;
 public class PrintHello {
-    private static void main(String[] args) {
-
-    }
+    public static void main(String[] args) {
+        printName("Masha");
+   }
+   public static void printName(String name){
+        System.out.println("Hello," + name);
+   }
 }
