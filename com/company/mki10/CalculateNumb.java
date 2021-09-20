@@ -1,14 +1,11 @@
 package com.company.mki10;
 public class CalculateNumb {
     public static void main(String[] args) {
-        printNumb();
+        printNumb(5, 10, 15);
     }
-
-    public static void printNumb() {
-        int numb1 = 5; int numb2 = 10; int numb3 = 15;
-        int max = Math.max(Math.max(numb1, numb2), numb3);
-        int min = Math.min(Math.min(numb1, numb2), numb3);
-        int mid = numb1 + numb2 + numb3 - (min + max);
-        System.out.println(mid);
+    public static void printNumb(int numberOne, int numberTwo, int numberThree) {
+        int max = Math.max(Math.max(numberOne, numberTwo), numberThree);
+        int min = Math.min(Math.min(numberOne, numberTwo), numberThree);
+        System.out.println("Mid of numbers 5, 10 and 15="+ (numberOne+numberTwo+numberThree-(min+max)));
     }
 }
