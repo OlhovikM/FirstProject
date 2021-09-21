@@ -1,10 +1,9 @@
 package com.company.mki5;
 public class DivideNumb {
     public static void main(String[] args) {
- printDevide();
+    printDivide(100, 5);
     }
-    public static void printDevide() {
-        int numberone=100; int numbertwo=5;
-        System.out.println("100/5"+"="+(numberone/numbertwo));
+    public static void printDivide(int numberOne,int numberTwo) {
+        System.out.println("100 divided by 5="+(numberOne/numberTwo));
     }
 }
